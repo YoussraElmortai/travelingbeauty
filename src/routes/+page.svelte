@@ -1,7 +1,4 @@
-<main>
 
-</main>
-
-<footer>
-    
-</footer>
+<section class="wrapper">
+    <div class="treatment"></div>
+</section>

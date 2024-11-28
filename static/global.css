@@ -1,13 +1,14 @@
 :root{
     --bg-color: #d6ddde ;
-    --text-color: ;
-    --accent: scribble ;
-    --accent-color: ;
+    --text-color: #141f2f;
+    --accent: Alientz ;
+    --accent-color:  #114eab;
 }
 
 @font-face{
-    font-family: scribble ;
-    src: url('/src/fonts/Lingkawi\ South.ttf');
+    font-family: Alientz  ;
+    src: url('/src/fonts/TT\ Alientz\ Trial\ Serif.ttf');
+
 }
 
 body{
@@ -16,8 +17,27 @@ body{
 
 h1{
     font-family: var(--accent) ;
+    color: var(--accent-color);
+    font-size: 2rem;
 }
 
 a{
     text-decoration: inherit;
+}
+
+.link{
+    border: solid 2px var(--text-color);
+    border-radius: 8rem;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+}
+
+.link_secondary{
+    border: solid 2px var(--accent-color);
+    border-radius: 8rem;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem;
+    color: var(--bg-color);
+    background: var(--accent-color);
 }
