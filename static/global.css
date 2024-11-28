@@ -1,13 +1,13 @@
 :root{
     --bg-color: #d6ddde ;
     --text-color: ;
-    --accent: ;
+    --accent: scribble ;
     --accent-color: ;
 }
 
 @font-face{
-    font-family: Alegant ;
-    src: url('/DxAlegant-ExtraLight.woff');
+    font-family: scribble ;
+    src: url('/src/fonts/Lingkawi\ South.ttf');
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 }
 
 h1{
-    font-family: Alegant ;
+    font-family: var(--accent) ;
 }
 
 a{
