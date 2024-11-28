@@ -1,17 +1,13 @@
 :root{
     --bg-color: #d6ddde ;
     --text-color: ;
-    --headings: Alegant;
     --accent: ;
     --accent-color: ;
 }
 
 @font-face{
     font-family: Alegant ;
-    src: url('./fonts/DxAlegant-ExtraLight.woff');
-    src: url('./fonts/DxAlegant-ExtraLight.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    src: url('/DxAlegant-ExtraLight.woff');
 }
 
 body{
@@ -19,7 +15,7 @@ body{
 }
 
 h1{
-    font-family: var(--headings) ;
+    font-family: Alegant ;
 }
 
 a{
