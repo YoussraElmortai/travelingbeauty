@@ -11,6 +11,11 @@
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: var(--bg-color);
 }
@@ -22,7 +27,24 @@ h1{
 }
 
 a{
-    text-decoration: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+nav{
+    margin-top: 1rem;
+}
+
+footer{
+    padding: 0.5rem;
 }
 
 .link{
