@@ -41,13 +41,37 @@ header{
 
 .hero{
     position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
     height: 80vh;
-    background: var(--accent-color);
     margin: 1rem;
     overflow: hidden;
+    background: linear-gradient(337deg, rgba(2, 0, 36, 0.505) 30%, rgba(18, 29, 82, 0.412) 69%, rgba(183, 225, 233, 0.222) 100%);
+
+  
+    & article{
+        z-index: 2;
+        padding: 1rem;
+
+        & h1{
+            font-size: 40px;
+        }
+
+        & p{
+            color: var(--bg-color);
+        }
+    }
+
+    & .link_wrapper{
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
 }
 
 .bgimage{
+    z-index: -1;
+    position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -67,6 +91,7 @@ main{
 
 .link_wrapper{
     display: flex;
+    gap: 1.5rem;
     flex-flow: row-reverse;
 }
 

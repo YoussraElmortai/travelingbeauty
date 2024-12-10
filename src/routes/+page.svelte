@@ -1,8 +1,14 @@
 
 <section class="hero">
  <img class="bgimage" src="/src/public/groupofpeople.avif" alt="wall" height="180" width="140" />
+ <article>
  <h1>Bringing Welness to you</h1>
- <h2></h2>
+ <p>our treatments help you feel more you again</p>
+ </article>
+ <div class="link_wrapper">
+     <a class="link_secondary" href="">Book now</a>
+         <a class="link" href="">Treatments</a>
+    </div>
 </section>
 
 <section class="wrapper">
