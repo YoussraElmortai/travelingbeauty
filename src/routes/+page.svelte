@@ -26,8 +26,26 @@
     <p>Relax and rejuvenate with our swedish massage services. Release tension, improve circulation, and enjoy a moment of pure tranquility in our soothing environment.</p>
     <a class="link_secondary" href="/">Book Now</a></div>
     </div>
+
+    <div class="treatment">
+    <h2>swedish massage</h2>
+    <div class="description">
+    <p>Relax and rejuvenate with our swedish massage services. Release tension, improve circulation, and enjoy a moment of pure tranquility in our soothing environment.</p>
+    <a class="link_secondary" href="/">Book Now</a></div>
     </div>
+
+    <div class="treatment">
+    <h2>swedish massage</h2>
+    <div class="description">
+    <p>Relax and rejuvenate with our swedish massage services. Release tension, improve circulation, and enjoy a moment of pure tranquility in our soothing environment.</p>
+    <a class="link_secondary" href="/">Book Now</a></div>
+    </div>
+
+    </div>
+
     <div class="link_wrapper">
     <a class="link" href="/">more treatments</a>
     </div>
+
+
 </section>

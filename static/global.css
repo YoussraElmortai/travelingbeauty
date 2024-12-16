@@ -87,7 +87,6 @@ main{
     display: flex;
     flex-flow: column;
     gap: 2rem;
-
 }
 
 .link_wrapper{
@@ -98,9 +97,14 @@ main{
 
 .treatments{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     gap: 0.5rem;
     width: 100%;
+
+    @media (min-width: 425px){
+        flex-flow: row wrap;
+        justify-content: center;
+      }
 }
 
 .treatment{
@@ -109,6 +113,10 @@ main{
     gap: 1rem;
     padding: 0.5rem;
     width: 100%;
+        
+    @media (min-width: 425px){
+        width: 40%;
+      }
 }
 
 .description{
