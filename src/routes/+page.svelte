@@ -3,7 +3,7 @@
  <img class="bgimage" src="/src/public/groupofpeople.avif" alt="wall" height="180" width="140" />
  <article>
  <h1>Bringing Welness to you</h1>
- <p>our treatments help you feel more you again</p>
+ <p>our treatments help you feel more you again. from traditional swedish massages to a massage tailored made for your specefic needs</p>
  </article>
  <div class="link_wrapper">
      <a class="link_secondary" href="">Book now</a>

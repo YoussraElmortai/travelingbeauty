@@ -47,7 +47,7 @@ header{
     height: 80vh;
     margin: 1rem;
     overflow: hidden;
-    background: linear-gradient(337deg, rgba(2, 0, 36, 0.505) 30%, rgba(18, 29, 82, 0.412) 69%, rgba(183, 225, 233, 0.222) 100%);
+    background: linear-gradient(337deg, rgba(2, 0, 36, 0.69) 50%, rgba(27, 43, 122, 0.499) 70%, rgba(183, 225, 233, 0.222) 100%);
 
   
     & article{
@@ -56,6 +56,7 @@ header{
 
         & h1{
             font-size: 40px;
+            color: var(--bg-color);
         }
 
         & p{
