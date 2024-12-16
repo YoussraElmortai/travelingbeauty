@@ -74,7 +74,7 @@ nav{
         padding: 1rem;
 
         & h1{
-            font-size: 40px;
+            font-size: 35px;
             color: var(--bg-color);
         }
 
