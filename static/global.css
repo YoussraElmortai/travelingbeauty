@@ -183,11 +183,17 @@ main{
 }
 
 @keyframes fade {
-    from {
+    0% {
         opacity: 0;
         padding-top: 3rem;
     }
-    to {
+
+    50%{
+        opacity: 0,5;
+        padding-top: 5rem;
+    }
+
+    100% {
         opacity: 1;
         padding-top: 0.5rem;
     }
