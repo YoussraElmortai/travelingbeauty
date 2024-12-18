@@ -52,7 +52,6 @@
 </section>
 
 <section class="quote">
-<h2>Traveling beauty</h2>
 <div class="text">
 <p> 12 years of experience in the world of beauty and .... . Traveling beauty is beauty salon that has grown and eveloved with the times and now gives </p>
 <span>Founder aichia ramli ...</span>
