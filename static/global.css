@@ -1,16 +1,16 @@
-:root{
-    --bg-color: #d6ddde ;
+:root {
+    --bg-color: #d6ddde;
     --text-color: #141f2f;
-    --accent: Alientz ;
-    --accent-color:  #114eab;
+    --accent: Alientz;
+    --accent-color: #114eab;
 }
 
-@font-face{
-    font-family: Alientz  ;
+@font-face {
+    font-family: Alientz;
     src: url('/src/fonts/TT\ Alientz\ Trial\ Serif.ttf');
 }
 
-body{
+body {
     background: var(--bg-color);
     font-family: monospace;
     margin: 0;
@@ -18,112 +18,24 @@ body{
     box-sizing: border-box;
 }
 
-h1{
-    font-family: var(--accent) ;
+h1 {
+    font-family: var(--accent);
     color: var(--accent-color);
     font-size: 26px;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
     width: fit-content;
     white-space: nowrap;
 }
 
-header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-
-    & .logo{
-        display: none;
-    }
-
-    @media (max-width: 420px){
-         justify-content: center;
-    }
-
-    @media (max-width: 609px){
-        gap: 0.5rem;
-
-        h1{
-           display: none; 
-        }
-
-        .logo{
-            display: block;
-        }
-      }
-
-}
-
-nav{
-    & ul{
-        display: flex;
-        flex-flow: row;
-        gap: 1rem;
-        padding: 0;
-
-        & li{
-            list-style: "";
-            font-size: 1rem;
-
-            &:hover{
-                a{
-                    border-bottom: solid var(--accent-color);
-                }
-            }
-        }
-    }
-}
-
-.hero{
-    position: relative;
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
-    height: 80vh;
-    margin: 1rem;
-    overflow: hidden;
-    background: linear-gradient(337deg, rgba(2, 0, 36, 0.69) 50%, rgba(27, 43, 122, 0.499) 70%, rgba(183, 225, 233, 0.222) 100%);
-
-  
-    & article{
-        z-index: 2;
-        padding: 1rem;
-
-        & h1{
-            font-size: 35px;
-            color: var(--bg-color);
-        }
-
-        & p{
-            color: var(--bg-color);
-        }
-    }
-
-    & .link_wrapper{
-        padding: 1rem;
-        padding-bottom: 2rem;
-    }
-}
-
-.bgimage{
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-main{
+main {
     margin-bottom: 2rem;
 }
 
-.wrapper{
+.wrapper {
     padding: 1rem;
     display: flex;
     flex-flow: column;
@@ -131,102 +43,28 @@ main{
     margin-bottom: 2rem;
 }
 
-.link_wrapper{
+.link_wrapper {
     display: flex;
     gap: 1.5rem;
     flex-flow: row-reverse;
 }
 
-.quote{
-    display: flex;
-    padding: 1rem;
-    flex-flow: column;
-    gap: 2rem;
-    background: var(--accent-color);
-    color: var(--bg-color);
-    height: fit-content;
-
-    & .text{
-        font-size: 30px;
-
-        & span{
-            font-size: 18px;
-        }
-    }
-}
-
-.treatments{
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-    width: 100%;
-
-    @media (min-width: 425px){
-        flex-flow: row wrap;
-        justify-content: center;
-      }
-}
-
-.treatment{
-    display: flex;
-    flex-flow: column;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    width: 100%;
-    animation: fade ease-out;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
-        
-    @media (min-width: 425px){
-        width: 40%;
-      }
-}
-
-@keyframes fade {
-    0% {
-        opacity: 0;
-        padding-top: 3rem;
-    }
-
-    50%{
-        opacity: 0,5;
-        padding-top: 5rem;
-    }
-
-    100% {
-        opacity: 1;
-        padding-top: 0.5rem;
-    }
-}
-
-.description{
-    display: flex;
-    flex-flow: column;
-}
-
-footer{
-    display: flex;
-    flex-flow: row-reverse;
-    padding: 1rem;
-    padding-bottom: 2rem;
-}
-
-.link{
+.link {
     border: solid 2px var(--text-color);
     border-radius: 8rem;
     text-transform: capitalize;
-    padding:  0.5rem 0.7rem;
+    padding: 0.5rem 0.7rem;
     color: var(--text-color);
     background: var(--bg-color);
     transition: padding ease-out 0.2s;
 
-    &:hover{
-        box-shadow: -4px 4px 0px 0px var(--text-color); 
+    &:hover {
+        box-shadow: -4px 4px 0px 0px var(--text-color);
         padding: 0.5rem 0.8rem;
     }
 }
 
-.link_secondary{
+.link_secondary {
     border: solid 2px var(--accent-color);
     border-radius: 8rem;
     text-transform: capitalize;
@@ -235,8 +73,8 @@ footer{
     background: var(--accent-color);
     transition: padding ease-out 0.2s;
 
-    &:hover{
-        box-shadow: -4px 4px 0px 0px var(--text-color); 
+    &:hover {
+        box-shadow: -4px 4px 0px 0px var(--text-color);
         padding: 0.5rem 0.8rem;
     }
 }
