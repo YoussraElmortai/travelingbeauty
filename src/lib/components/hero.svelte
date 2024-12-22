@@ -1,5 +1,5 @@
 <section class="hero">
-    <img class="bgimage" src="/src/public/groupofpeople.avif" alt="wall" height="180" width="140" />
+    <img class="bgimage" src="../src/public/groupofpeople.avif" alt="wall" height="180" width="140" />
     <article>
     <h1>Bringing Welness to you</h1>
     <p>our treatments help you feel more you again. from traditional swedish massages to a massage tailored made for your specefic needs</p>
