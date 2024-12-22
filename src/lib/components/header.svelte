@@ -1,7 +1,7 @@
 <header>
   <a class="logo" href=""
     ><img
-      src="/src/public/logo.png"
+      src="/logo.png"
       alt=""
       height="40px"
       width="40px"
