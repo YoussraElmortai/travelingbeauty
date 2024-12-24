@@ -17,7 +17,6 @@
     flex-flow: column;
     justify-content: flex-end;
     height: 80vh;
-    margin: 1rem;
     overflow: hidden;
     background: linear-gradient(
       337deg,
