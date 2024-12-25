@@ -1,13 +1,12 @@
 <header>
-  <a class="logo" href=""
+  <a class="logo" href="/"
     ><img
       src="/logo.png"
-      alt=""
+      alt="Traveling Beauty homepage"
       height="40px"
       width="40px"
     /></a
   >
-  <h1><a href="/">Traveling Beauty</a></h1>
   <nav>
     <ul>
       <li><a href="/treatments">treatments</a></li>
@@ -25,10 +24,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-
-    & .logo {
-      display: none;
-    }
+    margin-bottom: 2rem;
 
     @media (max-width: 375px) {
       justify-content: center;
@@ -36,14 +32,6 @@
 
     @media (max-width: 609px) {
       gap: 0.5rem;
-
-      h1 {
-        display: none;
-      }
-
-      .logo {
-        display: block;
-      }
     }
   }
 

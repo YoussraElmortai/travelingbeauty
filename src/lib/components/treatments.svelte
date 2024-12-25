@@ -10,7 +10,7 @@
 </div>
 
 <div class="link_wrapper">
-  <a class="link" href="treatments">more treatments</a>
+  <a class="link" href="/treatments">more treatments</a>
 </div>
 
 <style>

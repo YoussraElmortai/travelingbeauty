@@ -1,41 +1,68 @@
 <section class="hero">
-    <img class="bgimage" src="/groupofpeople.avif" alt="wall" height="180" width="140" />
-    <article>
-    <h1>Bringing Welness to you</h1>
-    <p>our treatments help you feel more you again. from traditional swedish massages to a massage tailored made for your specefic needs</p>
-    </article>
-    <div class="link_wrapper">
-        <a class="link_secondary" href="">Book now</a>
-            <a class="link" href="">Treatments</a>
-       </div>
-   </section>
+  <img
+    class="bgimage"
+    src="/groupofpeople.avif"
+    alt="wall"
+    height="180"
+    width="140"
+  />
+  <article>
+    <h1>Traveling Beauty</h1>
+    <p>
+      our treatments help you feel more you again. from traditional
+      swedish massages to a massage tailored made for your specefic
+      needs
+    </p>
+  </article>
+  <div class="link_wrapper">
+    <a class="link_secondary" href="/">Book now</a>
+    <a class="link" href="/treatments">Treatments</a>
+  </div>
+</section>
 
 <style>
   .hero {
     position: relative;
     display: flex;
     flex-flow: column;
+    gap: 1rem;
     justify-content: flex-end;
     height: 80vh;
     overflow: hidden;
     background: linear-gradient(
       337deg,
-      rgba(2, 0, 36, 0.69) 50%,
-      rgba(27, 43, 122, 0.499) 70%,
-      rgba(183, 225, 233, 0.222) 100%
+      rgba(3, 39, 54, 0.797) 50%,
+      #13424290 70%,
+      rgba(185, 238, 249, 0.252) 100%
     );
 
     & article {
+      display: flex;
+      flex-flow: column;
+      gap: 1.6rem;
       z-index: 2;
       padding: 1rem;
 
       & h1 {
-        font-size: 35px;
+        font-size: 46px;
         color: var(--bg-color);
+
+        @media (min-width: 425px) {
+          font-size: 62px;
+        }
       }
 
       & p {
         color: var(--bg-color);
+        font-size: 18px;
+
+        @media (min-width: 425px) {
+          font-size: 24px;
+        }
+
+        @media (min-width: 768px) {
+          width: 65%;
+        }
       }
     }
 

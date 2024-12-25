@@ -14,7 +14,7 @@
       .treatment {
     display: flex;
     flex-flow: column;
-    gap: 0.5rem;
+    gap: 1rem;
     padding: 0.5rem;
     width: 100%;
     animation: fade ease-out;
@@ -46,5 +46,6 @@
   .description {
     display: flex;
     flex-flow: column;
+    gap: 1.5rem;
 }
   </style>
