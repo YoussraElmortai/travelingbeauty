@@ -43,6 +43,10 @@
       z-index: 2;
       padding: 1rem;
 
+      @media (min-width: 768px) {
+          margin-left: 3rem;
+        }
+
       & h1 {
         font-size: 46px;
         color: var(--bg-color);

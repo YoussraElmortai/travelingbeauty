@@ -2,6 +2,7 @@
   import Treatment from "./treatment.svelte";
 
 </script>
+
 <div class="treatments">
 <Treatment/>
 <Treatment/>

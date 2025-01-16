@@ -1,3 +1,8 @@
+<script>
+  export let data;
+  console.log(data);
+</script>
+
 <div class="treatment">
     <h2>swedish massage</h2>
     <div class="description">
