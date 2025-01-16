@@ -8,7 +8,3 @@
 <section class="wrapper">
   <Treatments />
 </section>
-
-<section class="stacked">
-</section>
-

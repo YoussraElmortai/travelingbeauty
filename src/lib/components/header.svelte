@@ -24,14 +24,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    margin-bottom: 2rem;
 
     @media (max-width: 375px) {
       justify-content: center;
     }
 
     @media (max-width: 609px) {
-      gap: 0.5rem;
+      gap: 1rem;
     }
   }
 

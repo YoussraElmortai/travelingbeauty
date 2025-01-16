@@ -19,6 +19,9 @@ body {
     background: var(--bg-color);
     font-family: monospace;
     box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
 }
 
 h1 {
@@ -35,7 +38,7 @@ a {
 }
 
 main {
-    margin-bottom: 2rem;
+    flex: 1;
 }
 
 .wrapper {
@@ -86,9 +89,8 @@ main {
     color: var(--text-color);
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
-    padding: 0.5rem;
-    margin-bottom: 2rem;
+    gap: 1rem;
+    padding: 1.5rem;
 
     & p{
         margin: 0;

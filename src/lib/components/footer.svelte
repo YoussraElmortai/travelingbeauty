@@ -1,5 +1,5 @@
 <footer>
-  <a class="link" href="/">Contact</a>
+  <a class="link" href="/contact">Contact</a>
 </footer>
 
 <style>
