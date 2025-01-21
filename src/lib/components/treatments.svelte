@@ -1,13 +1,9 @@
 <script>
   import Treatment from "./treatment.svelte";
-
 </script>
 
 <div class="treatments">
-<Treatment/>
-<Treatment/>
-<Treatment/>
-<Treatment/>
+  <Treatment />
 </div>
 
 <div class="link_wrapper">
@@ -16,6 +12,7 @@
 
 <style>
   .treatments {
+    position: relative;
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
@@ -23,8 +20,7 @@
 
     @media (min-width: 425px) {
       flex-flow: row wrap;
-      justify-content: center;
+      justify-content: space-around;
     }
   }
-
 </style>

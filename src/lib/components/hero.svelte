@@ -35,6 +35,7 @@
       #13424290 70%,
       rgba(185, 238, 249, 0.252) 100%
     );
+    margin-bottom: 2.5rem;
 
     & article {
       display: flex;

@@ -1,19 +1,61 @@
-
-
 <div class="treatment">
-    <h2>swedish massage</h2>
-    <div class="description">
-      <p>
-        Relax and rejuvenate with our swedish massage services.
-        Release tension, improve circulation, and enjoy a moment of
-        pure tranquility in our soothing environment.
-      </p>
-      <a class="link_secondary" href="/">Book Now</a>
+  <h2>swedish massage</h2>
+  <div class="description">
+    <p>
+      Relax and rejuvenate with our swedish massage services. Release
+      tension, improve circulation, and enjoy a moment of pure
+      tranquility in our soothing environment.
+    </p>
+    <div class="link_wrapper">
+      <span>€95 for 60 min</span><a class="link_secondary" href="/">Book Now</a>
     </div>
   </div>
+</div>
 
-  <style>
-      .treatment {
+<div class="treatment">
+  <h2>swedish massage</h2>
+  <div class="description">
+    <p>
+      Relax and rejuvenate with our swedish massage services. Release
+      tension, improve circulation, and enjoy a moment of pure
+      tranquility in our soothing environment.
+    </p>
+    <div class="link_wrapper">
+      <span>€95 for 60 min</span><a class="link_secondary" href="/">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="treatment">
+  <h2>swedish massage</h2>
+  <div class="description">
+    <p>
+      Relax and rejuvenate with our swedish massage services. Release
+      tension, improve circulation, and enjoy a moment of pure
+      tranquility in our soothing environment.
+    </p>
+    <div class="link_wrapper">
+      <span>€95 for 60 min</span><a class="link_secondary" href="/">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="treatment">
+  <h2>swedish massage</h2>
+  <div class="description">
+    <p>
+      Relax and rejuvenate with our swedish massage services. Release
+      tension, improve circulation, and enjoy a moment of pure
+      tranquility in our soothing environment.
+    </p>
+    <div class="link_wrapper">
+      <span>€95 for 60 min</span><a class="link_secondary" href="/">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .treatment {
     display: flex;
     flex-flow: column;
     gap: 1rem;
@@ -25,6 +67,20 @@
 
     @media (min-width: 425px) {
       width: 40%;
+    }
+
+    & span {
+      border: solid 2px var(--text-color);
+      border-radius: 8rem;
+      text-transform: capitalize;
+      padding: 0.5rem 0.7rem;
+      color: var(--text-color);
+      background: var(--bg-color);
+    }
+
+    & .link_wrapper {
+      flex-flow: row;
+      align-items: center;
     }
   }
 
@@ -49,5 +105,5 @@
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
-}
-  </style>
+  }
+</style>
