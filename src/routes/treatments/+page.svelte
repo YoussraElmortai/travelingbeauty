@@ -10,3 +10,12 @@
 <section class="wrapper">
 <Treatment />
 </section>
+
+
+<style>
+    .wrapper{
+        @media (min-width: 425px) {
+            flex-flow: row wrap;
+        }
+    }
+</style>

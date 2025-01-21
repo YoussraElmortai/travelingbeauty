@@ -65,7 +65,7 @@
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
 
-    @media (min-width: 425px) {
+    @media (min-width: 630px) {
       width: 40%;
     }
 
@@ -76,6 +76,7 @@
       padding: 0.5rem 0.7rem;
       color: var(--text-color);
       background: var(--bg-color);
+      white-space: nowrap;
     }
 
     & .link_wrapper {
