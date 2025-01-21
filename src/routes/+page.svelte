@@ -5,15 +5,14 @@
 
 <Hero />
 
-<section class="core">
+<section class="about">
   <div class="intro">
-    <h2>Core principles</h2>
+    <h2>About us</h2>
     <p>
-      We pride ourselves on delivering exceptional care and work
-      according to our core principles to provide the best treatments
-      and service.
+      We are a specialist beauty salon offering treatments that help
+      you relax or relieve pain and discomfort.
     </p>
-  </div>
+
   <div class="wrapper">
     <article>
       <h3>Customer experience</h3>
@@ -56,7 +55,7 @@
 </section>
 
 <style>
-  .core {
+  .about {
     & .wrapper {
       flex-flow: row wrap;
       gap: 1rem;
@@ -80,6 +79,8 @@
     align-self: center;
     margin: 1.5rem;
     border: solid var(--text-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
     .cta_img {
       & img {
         height: 20rem;
