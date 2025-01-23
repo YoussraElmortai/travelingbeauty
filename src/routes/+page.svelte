@@ -12,20 +12,6 @@
       We are a specialist beauty salon offering treatments that help
       you relax or relieve pain and discomfort.
     </p>
-
-  <div class="wrapper">
-    <article>
-      <h3>Customer experience</h3>
-    </article>
-
-    <article>
-      <h3>Attention to Detail</h3>
-    </article>
-
-    <article>
-      <h3>Hygiene and Safety</h3>
-    </article>
-  </div>
 </section>
 
 <section class="treatment_wrapper">
@@ -56,19 +42,6 @@
 
 <style>
   .about {
-    & .wrapper {
-      flex-flow: row wrap;
-      gap: 1rem;
-    }
-    & article {
-      display: flex;
-      background: var(--accent-color);
-      color: var(--bg-color);
-      justify-content: center;
-      border-radius: 0.5rem;
-      padding: 1.5rem 1rem;
-      width: 100%;
-    }
   }
 
   .cta {
