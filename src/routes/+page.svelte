@@ -31,7 +31,7 @@
 <section class="cta">
   <div class="cta_img"><img src="/groupofpeople.avif" alt="" /></div>
   <div class="intro">
-    <h3>Book your consult for a specialized treatment</h3>
+    <h2>Book your consult for a specialized treatment</h2>
     <p>
       Outside of our regular treatments, we also offer specialized
       treatments designed specifically for your needs.

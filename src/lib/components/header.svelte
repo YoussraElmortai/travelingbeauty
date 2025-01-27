@@ -42,7 +42,7 @@
 
       & li {
         list-style: "";
-        font-size: 1rem;
+        font-size: 20px;
 
         &:hover {
           a {

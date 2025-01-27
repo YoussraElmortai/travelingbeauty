@@ -106,5 +106,9 @@
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
+
+    & p{
+      font-size: 16px;
+    }
   }
 </style>
