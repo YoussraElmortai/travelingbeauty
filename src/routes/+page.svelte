@@ -12,6 +12,16 @@
       We are a specialist beauty salon offering treatments that help
       you relax or relieve pain and discomfort.
     </p>
+      <div class="card">
+
+      </div>
+      <div class="card">
+        
+      </div>
+      <div class="card">
+        
+      </div>
+    </div>
 </section>
 
 <section class="treatment_wrapper">
@@ -41,9 +51,6 @@
 </section>
 
 <style>
-  .about {
-  }
-
   .cta {
     position: relative;
     display: flex;
