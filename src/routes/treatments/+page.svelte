@@ -1,12 +1,9 @@
 <script>
   import Treatment from "$lib/components/treatment.svelte";
+  import Banner from "$lib/components/banner.svelte";
 </script>
 
-<div class="banner">
-  <img
-    src="https://i.pinimg.com/736x/9a/4e/42/9a4e4228a1b5f6aa43275dd45f3f2979.jpg"
-  />
-</div>
+<Banner />
 
 <article class="intro">
   <h1>Treatments</h1>
@@ -16,9 +13,9 @@
   </p>
 </article>
 <div class="override">
-<section class="wrapper">
+  <section class="wrapper">
     <Treatment />
-</section>
+  </section>
 </div>
 
 <style>
@@ -31,16 +28,5 @@
 
   .override :global(.treatment) {
     animation: none;
-  }
-
-  .banner {
-    width: 100%;
-    height: 25vh;
-
-    & img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
   }
 </style>

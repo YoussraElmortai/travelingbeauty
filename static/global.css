@@ -54,6 +54,7 @@ main {
     flex: 1;
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .wrapper {
@@ -104,6 +105,7 @@ main {
     color: var(--text-color);
     display: flex;
     flex-flow: column;
+    align-items: center;
     gap: 1rem;
     padding: 1.5rem;
 
