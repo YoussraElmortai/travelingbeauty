@@ -15,12 +15,12 @@
     position: relative;
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
+    gap: 2rem 2.5rem;
     width: 100%;
 
     @media (min-width: 425px) {
       flex-flow: row wrap;
-      justify-content: space-around;
+      justify-content: center;
     }
   }
 </style>

@@ -25,6 +25,7 @@
   .wrapper {
     @media (min-width: 425px) {
       flex-flow: row wrap;
+      justify-content: space-around;
     }
   }
 
