@@ -6,29 +6,32 @@
 <Hero />
 
 <section class="about">
-  <div class="intro">
+  <article class="intro">
     <h2>About us</h2>
     <p>
       We are a specialist beauty salon offering treatments that help
       you relax or relieve pain and discomfort.
     </p>
-    <img src="">
-  </div>
-  <div class="scroll">
-    
-  </div>
+    <p>
+      With our wide range of treatments and options to get a
+      specialized treatment plan we strive to bring wellness and
+      healing into your life.
+    </p>
+    <img src="" alt="" />
+  </article>
+  <div class="scroll"></div>
 </section>
 
 <section class="treatments_sec">
- <div class="intro">
+  <article class="intro">
     <h2>Our treatments</h2>
     <p>
       We deliver a range of different treatments, but you can also
       request a consultation to get a tailor-made treatment designed
       for your needs.
     </p>
-  </div>
- 
+  </article>
+
   <div class="wrapper">
     <Treatments />
   </div>
@@ -36,14 +39,14 @@
 
 <section class="cta">
   <div class="cta_img"><img src="/groupofpeople.avif" alt="" /></div>
-  <div class="intro">
+  <article class="intro">
     <h2>Book your consult for a specialized treatment</h2>
     <p>
       Outside of our regular treatments, we also offer specialized
       treatments designed specifically for your needs.
     </p>
-    <a class="link" href="/">Book a consult</a>
-  </div>
+    <a class="link" href="/contact">Book a consult</a>
+  </article>
 </section>
 
 <style>
@@ -66,12 +69,11 @@
 
     & .intro {
       align-items: normal;
-
     }
 
-      & p {
-        margin-bottom: 1rem;
-        max-width: 40rem;
-      }
+    & p {
+      margin-bottom: 1rem;
+      max-width: 40rem;
+    }
   }
 </style>

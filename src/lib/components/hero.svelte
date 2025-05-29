@@ -29,6 +29,7 @@
     justify-content: flex-end;
     height: 80vh;
     overflow: hidden;
+    border-radius: 0.5rem;
     background: linear-gradient(
       337deg,
       rgba(3, 39, 54, 0.797) 50%,
