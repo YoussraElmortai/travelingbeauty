@@ -12,14 +12,15 @@
       We are a specialist beauty salon offering treatments that help
       you relax or relieve pain and discomfort.
     </p>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
+    <img src="">
+  </div>
+  <div class="scroll">
+    
   </div>
 </section>
 
-<section class="treatment_wrapper">
-  <div class="intro">
+<section class="treatments_sec">
+ <div class="intro">
     <h2>Our treatments</h2>
     <p>
       We deliver a range of different treatments, but you can also
@@ -27,6 +28,7 @@
       for your needs.
     </p>
   </div>
+ 
   <div class="wrapper">
     <Treatments />
   </div>
@@ -51,7 +53,6 @@
     flex-flow: column;
     width: fit-content;
     align-self: center;
-    margin: 1.5rem;
     border: solid var(--text-color);
     border-radius: 0.5rem;
     overflow: hidden;
@@ -66,9 +67,11 @@
     & .intro {
       align-items: normal;
 
+    }
+
       & p {
         margin-bottom: 1rem;
+        max-width: 40rem;
       }
-    }
   }
 </style>

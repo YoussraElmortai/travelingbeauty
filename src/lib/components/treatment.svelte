@@ -61,6 +61,7 @@
     gap: 1rem;
     padding: 0.5rem;
     width: 100%;
+    max-width: 30rem;
     animation: fade ease-out;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;

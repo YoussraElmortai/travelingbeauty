@@ -54,7 +54,7 @@ main {
     flex: 1;
     display: flex;
     flex-flow: column;
-    align-items: center;
+    padding: 0.5rem;
 }
 
 .wrapper {
@@ -105,13 +105,14 @@ main {
     color: var(--text-color);
     display: flex;
     flex-flow: column;
-    align-items: center;
+
     gap: 1rem;
     padding: 1.5rem;
 
     & p{
         margin: 0;
         font-size: 18px;
+        max-width: 40rem;
     }
 
     & h1{
@@ -123,3 +124,4 @@ main {
         font-size: 22px;
     }
 }
+

@@ -12,15 +12,14 @@
 
 <style>
   .treatments {
-    position: relative;
     display: flex;
     flex-flow: column;
     gap: 2rem 2.5rem;
     width: 100%;
 
+
     @media (min-width: 425px) {
       flex-flow: row wrap;
-      justify-content: center;
     }
   }
 </style>
