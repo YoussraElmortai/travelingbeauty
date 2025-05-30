@@ -93,6 +93,11 @@
       flex-flow: row wrap;
       gap: 0.5rem;
       width: 100%;
+
+      & input {
+        flex: 1;
+        min-width: 0;
+      }
     }
 
     & input,
@@ -100,6 +105,12 @@
       border: solid var(--bg-color);
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
+    }
+
+    & textarea {
+      min-height: 70px;
+      max-height: 120px;
+      max-width: 100%;
     }
 
     & button {
