@@ -11,14 +11,15 @@
 }
 
 @media (prefers-reduced-motion) {
-	::view-transition-group(*),
-	::view-transition-old(*),
-	::view-transition-new(*) {
-		animation: none !important;
-	}
+
+    ::view-transition-group(*),
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+        animation: none !important;
+    }
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -38,7 +39,7 @@ h1 {
     font-size: 26px;
 }
 
-h2{
+h2 {
     font-size: 20px;
 }
 
@@ -55,6 +56,10 @@ main {
     display: flex;
     flex-flow: column;
     padding: 0.5rem;
+}
+
+section {
+    margin-bottom: 2.5rem;
 }
 
 .wrapper {
@@ -101,7 +106,8 @@ main {
     }
 }
 
-.intro{
+
+.intro {
     color: var(--text-color);
     display: flex;
     flex-flow: column;
@@ -109,19 +115,18 @@ main {
     gap: 1rem;
     padding: 1.5rem;
 
-    & p{
+    & p {
         margin: 0;
         font-size: 18px;
         max-width: 40rem;
     }
 
-    & h1{
-        font-family: monospace ;
+    & h1 {
+        font-family: monospace;
         color: var(--text-color);
     }
 
-    & h2{
+    & h2 {
         font-size: 22px;
     }
 }
-

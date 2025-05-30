@@ -27,7 +27,7 @@
     flex-flow: column;
     gap: 1rem;
     justify-content: flex-end;
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
     border-radius: 0.5rem;
     background: linear-gradient(
@@ -75,6 +75,10 @@
     & .link_wrapper {
       padding: 1rem;
       padding-bottom: 2rem;
+
+      & .link, .link_secondary{
+        font-size: 18px;
+      }
     }
   }
 
