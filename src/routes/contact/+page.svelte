@@ -35,42 +35,57 @@
 </article>
 
 <section class="form">
-  <h2>Get in touch</h2>
   <form on:submit|preventDefault={handleSubmit} class="contact">
-    <input
-      type="hidden"
-      name="access_key"
-      value="e528368b-c73a-4a3a-91e4-4e01f4965b03"
-    />
-    <div>
+    <fieldset>
+      <legend><h2>Get in touch</h2></legend>
       <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        class="contact_inputs"
-        required
+        type="hidden"
+        name="access_key"
+        value="e528368b-c73a-4a3a-91e4-4e01f4965b03"
       />
-      <input
-        type="text"
-        name="lastname"
-        placeholder="lastname"
-        class="contact_inputs"
-        required
-      />
-    </div>
-    <input
-      type="email"
-      name="email"
-      placeholder="Your email"
-      class="contact_inputs"
-      required
-    />
-    <textarea
-      name="message"
-      placeholder="Your Message"
-      class="contact_inputs"
-      required
-    ></textarea>
+      <div class="name_inputs">
+        <div class="form_input">
+          <label>Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="contact_inputs"
+            required
+          />
+        </div>
+        <div class="form_input">
+          <label>Lastname</label>
+          <input
+            type="text"
+            name="lastname"
+            placeholder="lastname"
+            class="contact_inputs"
+            required
+          />
+        </div>
+      </div>
+      <div class="form_input">
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your email"
+          class="contact_inputs"
+          required
+        />
+      </div>
+
+      <div class="form_input">
+        <label>Message</label>
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact_inputs"
+          required
+        ></textarea>
+      </div>
+    </fieldset>
     <button class="link_secondary" type="submit">Submit</button>
   </form>
 </section>
@@ -82,29 +97,41 @@
     flex-flow: column;
     gap: 1.5rem;
   }
+
+  .name_inputs {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .form_input {
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+    padding: 0.2rem;
+    max-width: 30rem;
+  }
   .contact {
     display: flex;
     flex-flow: column;
-    max-width: 30rem;
+    width: 100%;
     gap: 0.5rem;
 
-    & div {
-      display: flex;
-      flex-flow: row wrap;
-      gap: 0.5rem;
-      width: 100%;
-
-      & input {
-        flex: 1;
-        min-width: 0;
-      }
+    & fieldset {
+      border: none;
     }
-
     & input,
     textarea {
       border: solid var(--bg-color);
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
+
+      &:not(:placeholder-shown):valid {
+        border: solid 2px #487f55ce;
+      }
+
+      &:not(:placeholder-shown):invalid {
+        border: solid 2px #b01f1f;
+      }
     }
 
     & textarea {
