@@ -113,7 +113,7 @@
   .contact {
     display: flex;
     flex-flow: column;
-    width: 100%;
+    max-width: 30rem;
     gap: 0.5rem;
 
     & fieldset {

@@ -10,8 +10,12 @@
       mouse.x = e.x;
       mouse.y = e.y;
 
-      const hoveredElement = document.elementFromPoint(e.clientX, e.clientY);
-      const isHoveringLink = hoveredElement?.closest('.link_secondary');
+      const hoveredElement = document.elementFromPoint(
+        e.clientX,
+        e.clientY
+      );
+      const isHoveringLink =
+        hoveredElement?.closest(".link_secondary");
       cursorElement.style.background = isHoveringLink
         ? "white"
         : "var(--accent-color)";
@@ -44,5 +48,10 @@
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: background 0.2s ease-out;
+    display: none;
+
+    @media (min-width: 425px) {
+      display: block;
+    }
   }
 </style>
