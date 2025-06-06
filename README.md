@@ -2,8 +2,14 @@
 ## Bringing the clients vision to life
 ### The goal
 
-### Work in progress
+## Work in progress
 
 
-### Highlights
+## Highlights
+
+### mouse trailer
+
+### CSS scroll-animation
+
+### page-transition
 
